@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+
+    .flag{
+      width: 900px;
+      height: 600px;
+      background-color: #ff9933;
+      position: relative;
+    }
+
+
+    .flag > div{
+      background-color: #ffffff;
+      width: 100%;
+      height: 200px;
+      position: absolute;
+      top: 200px;
+    }
+
+    .flag > div > div{
+      width: 150px;
+      height: 150px;
+      background-color: #000088; 
+      border-radius: 50%;
+      position: relative;
+      top: 25px;
+      left: 350px;
+    }
+
+    .flag > div > div > div{
+        width: 135px;
+        height: 135px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 7.5px;
+        left: 7.5px;
+    }
+
+    .flag > div > div > div > div{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #000088;
+        position: absolute;
+        top: 57.5px;
+        left: 57.5px;
+    }
+
+    .flag > .green{
+        background-color: #128807;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 400px;
+    }
+
+    
+  </style>
+</head>
+
+
+<body>
+  <div class="flag">
+    <div>
+      <div>
+        <div>
+            <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="green">
+    </div>
+  </div>
+</body>
+
+</html>
